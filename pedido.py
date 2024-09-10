@@ -5,7 +5,26 @@ from PIL import Image
 
 # Configuración de la página
 st.set_page_config(page_title="SUPER PEDIDOS")
-
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+                     .container {
+                display: flex;
+            }
+            .logo-text {
+                font-weight:700 !important;
+                font-size:30px !important;
+                color: black !important;
+                padding-top: 50px !important;
+            }
+            .logo-img {
+                float:right;
+            }
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 # Crear carpeta para almacenar imágenes si no existe
 if not os.path.exists("imagenes"):
     os.makedirs("imagenes")
