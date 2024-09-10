@@ -28,7 +28,7 @@ def mostrar_info_local():
 
 # Función para mostrar productos en dos columnas
 def mostrar_productos():
-    st.markdown("<h1 style='color:red; font-weight:bold; text-align:center;'>Lista de Productos</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color:black; font-weight:bold; text-align:center;'>Lista de Productos</h1>", unsafe_allow_html=True)
     #st.header("Lista de Productos")
     productos_seleccionados = []
     
