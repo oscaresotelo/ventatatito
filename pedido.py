@@ -20,7 +20,8 @@ else:
 
 # Función para mostrar el título y la información del local
 def mostrar_info_local():
-    st.markdown("<h1 style='color:red; font-weight:bold;'>SUPER PEDIDOS</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color:red; font-weight:bold; text-align:center;'>SUPER PEDIDOS</h1>", unsafe_allow_html=True)
+
     st.markdown("<p>Teléfono: 3812588535</p>", unsafe_allow_html=True)
     st.markdown("<p><strong>Selecciona la Cantidad y productos que deseas y presiona el boton al final de la pagina para enviar</strong></p>", unsafe_allow_html=True)
     
